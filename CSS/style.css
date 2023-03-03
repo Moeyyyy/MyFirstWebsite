@@ -1,0 +1,55 @@
+/* Selector {
+    Property: value;
+}
+*/
+
+* {
+    text-align: right;
+}
+body {
+    background-image: url(Backgroundimage.jpg);
+    background-size: cover;   
+}
+h2 {
+    color: rgba(255, 89, 0, 0.983);
+}
+p {
+    color: #412400;
+    text-align: center;
+    border: 5px solid rgb(163, 86, 0, 0.5);
+    cursor: pointer;  
+}
+p {
+    line-height: 94px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Oswald', sans-serif;
+}
+img {
+    float: left;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+
+li {
+    color: #ffab03d4;
+    list-style: none;
+    display: inline-block;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.webtext:first-child {
+    border: 5px dashed rgb(118, 118, 118);
+}
+.active {
+  color: rgb(113, 54, 12);
+}
+#div1 {
+    background: rgba(255, 106, 0, 0.2);
+}
+#div2 {
+    background: rgba(255, 247, 0, 0.2)
+}
